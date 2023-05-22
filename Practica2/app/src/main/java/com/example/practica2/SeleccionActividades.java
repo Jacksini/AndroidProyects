@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Spinner;
 
 public class SeleccionActividades extends AppCompatActivity {
 
@@ -27,7 +28,7 @@ public class SeleccionActividades extends AppCompatActivity {
             Intent intent = new Intent(this,Radio.class);
             startActivity(intent);
         }else if(Act3.isPressed() == true){
-            Intent intent = new Intent(this,Radio.class);
+            Intent intent = new Intent(this, spinner.class);
             startActivity(intent);
         }
     }
